@@ -2,6 +2,7 @@
 
 output of angr:
 
+```
 0xffffffff
 Value Should be 0x41414141 to really bypass this fucker
 0x41414141
@@ -77,5 +78,6 @@ DEBUG   | 2017-02-18 21:42:23,032 | angr.path_group | Round 44: stepping <PathGr
 DEBUG   | 2017-02-18 21:49:35,983 | angr.path_group | Round 45: stepping <PathGroup with 1 deadended, 16384 active>
 DEBUG   | 2017-02-18 21:54:59,579 | angr.path_group | Round 46: stepping <PathGroup with 1 deadended, 16384 active>
 DEBUG   | 2017-02-19 02:52:52,217 | angr.path_group | Round 47: stepping <PathGroup with 1 deadended, 32768 active>
+```
 
 killed it here after 12 Hours of execution and 64 Gig of mem allocated
